@@ -28,11 +28,6 @@ public class Practico {
 
 
 
-//        Scanner entrada3 = new Scanner(System.in);
-//        System.out.print("Ingrese el número de vertices para su grafo pesado: ");
-//        String nro31 = entrada3.next();
-//        int nro32 = Integer.parseInt(nro31);
-//        GrafoPesado grafoDePruebaPesado = new GrafoPesado(nro32);
 
         System.out.println("----------------------------------------------------------------------------------");
         System.out.println("Respuesta al enunciado 1: ");
