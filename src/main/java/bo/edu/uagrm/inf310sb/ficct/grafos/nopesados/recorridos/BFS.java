@@ -17,7 +17,7 @@ public class BFS {
     private List<Integer> recorrido;
 
     /**
-     * 1)
+     * 
      * @param unGrafo
      * @param posDeVerticeDePartida
      */
@@ -30,7 +30,7 @@ public class BFS {
     }
 
     /**
-     * 2)
+     * 
      * @param posDeVerticeDePartida
      */
     private void ejecturaBFS(int posDeVerticeDePartida) {
@@ -53,7 +53,7 @@ public class BFS {
     }
 
     /**
-     * 3)
+     * 
      * @return
      */
     public boolean hayCaminosATodos() {
@@ -61,7 +61,7 @@ public class BFS {
     }
 
     /**
-     * 4)
+     * 
      * @return
      */
     public Iterable<Integer> obtenerRecorrido() {
@@ -69,7 +69,7 @@ public class BFS {
     }
 
     /**
-     * 5)
+     * 
      * @param posDeVerticeDestino
      * @return
      */
