@@ -32,38 +32,7 @@ public class RecorridoUtilsPredecesores {
         }
     }
 
-    /**
-     * 3)
-     * Retorna verdadero para indicar que un vertice está marcado.
-     * Falso en caso contrario.
-     * PRE: Se asume que la posición de vertice es una posicion válida.
-     * @param posDeVertice
-     * @return
-     */
-//    public boolean estaVerticeMarcado(int posDeVertice) {
-//        return this.predecesores.get(posDeVertice);
-//    }
-
-    /**
-     * 4)
-     *
-     * @return
-     */
-//    public boolean estanTodosMarcados() {
-//        for (Boolean marcado: this.predecesores) {
-//            if (!marcado) {
-//                return false;
-//            }
-//        }
-//
-//        return true;
-//    }
-
-    /**
-     * 5)
-     * PRE-Condicion: la posición de vértice, es una posicion válida.
-     * @param posDeVertice
-     */
+   
     public void setPredecesor(int posDeVertice, int posPredecesor) {
         predecesores.set(posDeVertice, posPredecesor);
     }
