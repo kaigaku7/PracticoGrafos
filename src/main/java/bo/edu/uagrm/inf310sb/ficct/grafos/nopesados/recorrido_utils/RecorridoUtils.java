@@ -10,7 +10,7 @@ public class RecorridoUtils {
 
 
     /**
-     * 1)
+     * 
      * @param nroDeVertices
      */
     public RecorridoUtils(int nroDeVertices) {
@@ -20,9 +20,7 @@ public class RecorridoUtils {
         }
     }
 
-    /**
-     * 2)
-     */
+
     public void desmarcarTodos() {
         for (int i = 0; i < marcados.size(); i++) {
             marcados.set(i, Boolean.FALSE);
@@ -30,9 +28,6 @@ public class RecorridoUtils {
     }
 
     /**
-     * 3)
-     * Retorna verdadero para indicar que un vertice está marcado.
-     * Falso en caso contrario.
      * PRE: Se asume que la posición de vertice es una posicion válida.
      * @param posDeVertice
      * @return
@@ -42,7 +37,7 @@ public class RecorridoUtils {
     }
 
     /**
-     * 4)
+     *
      *
      * @return
      */
@@ -57,7 +52,7 @@ public class RecorridoUtils {
     }
 
     /**
-     * 5)
+     * 
      * PRE-Condicion: la posición de vértice, es una posicion válida.
      * @param posDeVertice
      */
