@@ -21,14 +21,14 @@ public class Digrafo extends Grafo {
     RecorridoUtils2 controlDeMarcados2;
 
     /**
-     * 1)
+     * 
      */
     public Digrafo() {
         super();
     }
 
     /**
-     * 2)
+     * 
      *
      * @param nroDeVertices
      * @throws ExcepcionNumVerticesInvalido
@@ -39,7 +39,7 @@ public class Digrafo extends Grafo {
     }
 
     /**
-     * 3)
+     * 
      * * @return
      */
     @Override
@@ -55,7 +55,7 @@ public class Digrafo extends Grafo {
     }
 
     /**
-     * 4)
+     * 
      *
      * @param posVerticeOrigen
      * @param posVerticeDestino
@@ -72,7 +72,7 @@ public class Digrafo extends Grafo {
     }
 
     /**
-     * 5)
+     * 
      *
      * @param posVerticeOrigen
      * @param posVerticeDestino
@@ -92,7 +92,6 @@ public class Digrafo extends Grafo {
     }
 
     /**
-     * 6)
      *
      * @param posDeVertice
      * @return
@@ -104,7 +103,7 @@ public class Digrafo extends Grafo {
     }
 
     /**
-     * 7)
+     * 
      *
      * @param posVertice
      * @return
@@ -123,7 +122,7 @@ public class Digrafo extends Grafo {
     }
 
     /**
-     * 8)
+     * 
      *
      * @param posVertice
      * @return
@@ -286,12 +285,6 @@ public class Digrafo extends Grafo {
 
     /**
      * 11. Para un grafo dirigido implementar un algoritmo para encontrar el número de islas que hay en el grafo
-
-
- No utilizo el método desmarcarVertice de la clase RecorridoUtils por que al momento de desmarcar toma la
- cantidad de vertices inicial, como concecuencia produce un error al momento de eliminar un vertice y procesar
- este metodo de nuevo. Para solucionar esto creo una nueva referencia a la clase RecorridoUtils dentro del
- método para tomar la cantidad actual de vertices.
      * @return
      */
     public int nroDeIslasEnUnDigrafo() {
