@@ -16,7 +16,7 @@ public class DFS {
     private List<Integer> recorrido;
 
     /**
-     * 1)
+     * 
      * @param unGrafo
      * @param posDeVerticeDePartida
      */
@@ -29,7 +29,7 @@ public class DFS {
     }
 
     /**
-     * 2)
+     * 
      * @param posDeVerticeEnTurno
      */
     public void procesarDFS(int posDeVerticeEnTurno) {
@@ -44,7 +44,7 @@ public class DFS {
     }
 
     /**
-     * 3)
+     * 
      *
      * @return
      */
@@ -53,7 +53,7 @@ public class DFS {
     }
 
     /**
-     * 4)
+     * 
      *
      * @return
      */
@@ -62,7 +62,7 @@ public class DFS {
     }
 
     /**
-     * 5)
+     * 
      *
      * @param posDeVerticeDestino
      * @return
@@ -74,14 +74,4 @@ public class DFS {
 
     //--------------------------------
 
-    /*
-     * Ordenamiento topológico
-     * - Es sobre grafo dirigido
-     * - El digrafo debe ser debilmente conexo (?)
-     * - Que no tenga ciclos (?)
-     */
-
-    /*
-    Algoritmo de warshall
-     */
 }
